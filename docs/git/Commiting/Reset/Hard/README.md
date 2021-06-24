@@ -1,0 +1,1 @@
+# Hard reset on change

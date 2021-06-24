@@ -1,0 +1,1 @@
+# Second Normal Form (2 NF)

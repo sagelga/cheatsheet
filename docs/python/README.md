@@ -4,7 +4,7 @@ heroImage: 'https://avatars1.githubusercontent.com/u/44744915'
 heroText: Welcome to Python Cheatsheet
 
 actionText: Get Started →
-actionLink: /Installation/
+actionLink: /python/install/
 
 footer: Under MIT license. Created by @sagelga
 ---

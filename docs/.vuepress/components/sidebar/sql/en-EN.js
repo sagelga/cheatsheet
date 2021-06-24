@@ -1,102 +1,96 @@
-
 module.exports = [
     // Official : https://vuepress.vuejs.org/theme/default-theme-config.html#sidebar
     {
-        title: 'Overall',
-        collapsable: false,
+        text: 'Getting Started',
         children: [
-            'Overall/Command/',
-            'Overall/DataType/',
-            'Overall/Table/',
-            'Overall/Relationship/',
+            '/sql/intro/command/',
+            '/sql/table/data-type/',
+            '/sql/table/constraint/',
+            '/sql/table/relationship/',
         ]
     },
     {
-        title: 'Querying data',
-        collapsable: false,
+        text: 'Querying data',
         children: [
-            'Select/',
-            'Where/',
+            '/sql/view/select/',
+            '/sql/view/where/',
         ]
     },
     {
-        title: 'Managing tables',
-        collapsable: false,
+        text: 'Database Tables',
         children: [
-            'Create/',
-            'Rename/',
-            'Drop/',
-            'Describe/',
+            '/sql/table/create/',
+            '/sql/table/describe/',
+            '/sql/table/rename/',
+            '/sql/table/drop/',
         ]
     },
     {
-        title: 'Manipulating records',
-        collapsable: false,
+        text: 'Update Data',
         children: [
-            'Insert/',
-            'Update/',
-            'Delete/',
+            '/sql/data/insert/',
+            '/sql/data/delete/',
+            '/sql/data/update/',
         ]
     },
     {
-        title: 'Modifying columns',
-        collapsable: false,
+        text: 'Edit Tables',
         children: [
-            'Alter/Add/',
-            'Alter/Modify/',
-            'Alter/Drop/',
+            '/sql/table/alter/add/',
+            '/sql/table/alter/modify/',
+            '/sql/table/alter/drop/',
         ]
     },
     {
-        title: 'Data grouping',
-        collapsable: false,
+        text: 'Grouping',
         children: [
-            'Group/',
-            'GroupFunction/',
+            '/sql/view/group/',
+            '/sql/view/group/function/',
         ]
     },
     {
-        title: 'Merging tables',
-        collapsable: false,
+        text: 'Joining Tables',
         children: [
-            'Join/Inner/CartesianProduct/',
-            'Join/Inner/Cross/',
-            'Join/Inner/Equijoin/',
-            'Join/Inner/Natural/',
-            'Join/Inner/Inner/',
-            'Join/Outer/Left/',
-            'Join/Outer/Right/',
-            'Join/Outer/Full/',
+            '/sql/view/join/inner/',
+            '/sql/view/join/inner/CartesianProduct/',
+            '/sql/view/join/inner/Cross/',
+            '/sql/view/join/inner/Equijoin/',
+            '/sql/view/join/inner/Natural/',
+            '/sql/view/join/outer/left/',
+            '/sql/view/join/outer/right/',
+            '/sql/view/join/outer/full/',
         ]
     },
     {
-        title: 'Transaction control',
-        collapsable: false,
+        text: 'Transaction control',
         children: [
-            'Commit/',
-            'Rollback/',
-            'Savepoint/',
+            '/sql/table/commit/',
+            '/sql/table/rollback/',
+            '/sql/table/savepoint/',
         ]
     },
     {
-        title: 'Normalization',
-        collapsable: false,
+        text: 'Normalization',
         children: [
-            'Normalization/'
+            '/sql/table/normalize/1NF.html',
+            '/sql/table/normalize/2NF.html',
+            '/sql/table/normalize/3NF.html',
+            '/sql/table/normalize/4NF.html',
+            '/sql/table/normalize/Boyce-CoddNF.html',
+            '/sql/table/normalize/5NF.html',
         ]
     },
-    {
-        title: 'Sample Database',
-        collapsable: false,
-        children: [
-            'Sample-Database/',
-            'Sample-Database/Countries.md',
-            'Sample-Database/Departments.md',
-            'Sample-Database/Employees.md',
-            'Sample-Database/Job_History.md',
-            'Sample-Database/Jobs.md',
-            'Sample-Database/Locations.md',
-            'Sample-Database/Regions.md'
-        ]
-    }
+    // {
+    //     text: 'Sample Database',
+    //     children: [
+    //         'Sample-Database/',
+    //         'Sample-Database/Countries.md',
+    //         'Sample-Database/Departments.md',
+    //         'Sample-Database/Employees.md',
+    //         'Sample-Database/Job_History.md',
+    //         'Sample-Database/Jobs.md',
+    //         'Sample-Database/Locations.md',
+    //         'Sample-Database/Regions.md'
+    //     ]
+    // }
 ]

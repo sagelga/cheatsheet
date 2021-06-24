@@ -1,0 +1,50 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+@import url("https://use.typekit.net/ejo4rwy.css");
+
+:root {
+  --font-family: ibm-plex-thai,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+
+  --font-family-code: Consolas,
+    Monaco,
+    'Andale Mono',
+    'Ubuntu Mono',
+    monospace;
+}
+
+// .home .hero img {
+//   max-width 450px!important
+// }
+
+// h1
+//   font-family: ibm-plex-thai, sans-serif
+//   font-weight: 800
+//   font-style: normal
+
+
+// h2, h3, h4, h5
+//   font-family: ibm-plex-thai, sans-serif
+//   font-weight: 500
+//   font-style: normal
+
+
+// body{
+//     font-family: ibm-plex-thai-looped, sans-serif
+//   font-weight: 500
+//   font-style: normal
+// }
