@@ -1,30 +1,24 @@
-module.exports = [
-
-    // Official : https://vuepress.vuejs.org/theme/default-theme-config.html#sidebar
-    {
-        title: 'Data Preparation',
-        collapsable: false,
+module.exports = [{
+        text: 'Data Preparation',
         children: [
-            '/Data/DataCleansing/',
-            '/Data/DataTransformation/'
+            '/spss/data/clean/',
+            '/spss/data/transform/'
         ]
     },
     {
-        title: 'Test Assumption',
-        collapsable: false,
+        text: 'Create Model',
         children: [
-            '/AssumptionTest/'
+            '/spss/model/anova/two-way/',
+            '/spss/model/linear-regression/',
+            '/spss/model/linear-regression/multiple/',
+            '/spss/model/logistic-regression/',
+            '/spss/model/time-series/'
         ]
     },
     {
-        title: 'Create Model',
-        collapsable: false,
+        text: 'Tests',
         children: [
-            '/Model/TwoWayANOVA/',
-            '/Model/LinearRegression/',
-            '/Model/MultipleLinearRegression/',
-            '/Model/LogisticsRegression/',
-            '/Model/TimeSeries/'
+            '/spss/test/assumption/'
         ]
     },
 ]

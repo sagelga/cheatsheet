@@ -40,19 +40,22 @@ module.exports = {
    */
   themeConfig: {
     repo: '',
-    editLinks: false,
+    editLinks: true,
     docsDir: '',
     editLinkText: '',
+    logo: 'https://avatars1.githubusercontent.com/u/44744915',
     lastUpdated: 'Last Update (UTC)',
     searchPlaceholder: 'Search...',
 
-    nav: require('./components/navbar/en-EN.js'),
+    navbar: require('./components/navbar/en-EN.js'),
 
     sidebar: {
       '/python/': require('./components/sidebar/python/en-EN.js'),
-      '/class-diagram/': require('./components/sidebar/class-diagram/en-EN.js'),
-      '/spss/': require('./components/sidebar/spss/en-EN.js'),
       '/sql/': require('./components/sidebar/sql/en-EN.js'),
+      '/git/': require('./components/sidebar/git/en-EN.js'),
+      // '/swift/': require('./components/sidebar/swift/en-EN.js'),
+      '/spss/': require('./components/sidebar/spss/en-EN.js'),
+      '/class-diagram/': require('./components/sidebar/class-diagram/en-EN.js'),
     },
   },
   // /**

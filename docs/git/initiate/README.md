@@ -1,13 +1,4 @@
----
-home: true
-heroImage: 'https://avatars1.githubusercontent.com/u/44744915'
-heroText: Welcome to Git Cheat Sheet
-
-actionText: Get Started →
-actionLink: /Initiate/Install/
-
-footer: For contributing guidelines, please check out http://kuma-cheatsheet.github.io for more information.
----
+# Git คืออะไร
 Git เป็นระบบจัดการเวอร์ชั่นของไฟล์ (Version Control) โดยมีการจัดระเบียบข้อมูลด้วยการใช้ Git
 
 ตัว Git เป็น Open Source ของ GitHub
