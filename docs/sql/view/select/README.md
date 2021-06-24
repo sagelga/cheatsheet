@@ -1,23 +1,41 @@
 # SELECT & FROM
+เพื่อที่จะเข้าถึงข้อมูลภายใน Database เราจะต้องใช้คำสั่งนั่นก็คือ `SELECT` และ `FROM`
+โดยที่ `SELECT` จะทำหน้าที่เลือก column ที่เกี่ยวข้องในตารางออกมา
+และ `FROM` จะทำหน้าที่เลือก table ที่เกี่ยวข้องในตารางออกมา
 
-## Syntax
-<<< @/code/Select/select-usage.sql
+``` sql
+SELECT [column_name]
+FROM [table_name];
+```
 
-## Select result based on column selection
-To choose an column to be shown as the result of the query, SELECT is used.
+::: tip
+เราควรที่จะเลือก column ที่เราต้องการใช้งานเท่านั้นเพื่อทำให้การใช้งานของผู้ใช้นั้นเร็วขึ้น
+:::
 
-### Select all from table
-To select all columns from the table, use `*` as the column name.
+### เลือกทั้งหมด
+เพื่อที่จะเลือกทุก column ออกมา ให้ใช้ `SELECT *`
 
-<<< @/code/Select/select-all-employee.sql
+``` sql
+SELECT *
+FROM Employees;
+```
 
-### Select some column from table
-To choose the column to show, type in the column name and separate it with commas
+::: tip
+ข้อดี: หากว่ามีคนทำการลบชื่อ column ออกไป เราก็จะไม่ได้รับผลกระทบอะไร เพราะก็เลือกทุกอันอยู่แล้ว
 
-<<< @/code/Select/select-some-employee.sql
+ข้อเสีย: ช้ากว่าการเรียกบาง column
+:::
+
+## เลือกบาง Column จากตาราง
+เพื่อที่จะเลือกบาง column ออกมา ให้เขียนชื่อ column หลังจาก SELECT และตามด้วย , หากต้องการหลาย column
+
+``` sql
+SELECT first_name, last_name
+FROM Employees;
+```
 
 ## Select `DISTINCT` column
-`DISTINCT` keyword is used when you want to get a *unique* values as a output. So the result does not have duplicate values in that selected column(s). 
+`DISTINCT` keyword is used when you want to get a *unique* values as a output. So the result does not have duplicate values in that selected column(s).
 
 <<< @/code/Select/select-distinct-employee.sql
 
