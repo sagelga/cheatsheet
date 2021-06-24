@@ -15,9 +15,9 @@ actions:
     - text: SPSS
       link: /spss/data/clean/
       type: primary
-    - text: Swift
-      link: /swift/
-      type: primary
+    # - text: Swift
+    #   link: /swift/
+    #   type: primary
 features:
     - title: Simplicity First
       details: Minimal setup with markdown-centered project structure helps you focus on writing.

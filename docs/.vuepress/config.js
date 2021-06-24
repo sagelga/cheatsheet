@@ -53,9 +53,8 @@ module.exports = {
       '/python/': require('./components/sidebar/python/en-EN.js'),
       '/sql/': require('./components/sidebar/sql/en-EN.js'),
       '/git/': require('./components/sidebar/git/en-EN.js'),
-      // '/swift/': require('./components/sidebar/swift/en-EN.js'),
       '/spss/': require('./components/sidebar/spss/en-EN.js'),
-      '/class-diagram/': require('./components/sidebar/class-diagram/en-EN.js'),
+      // '/swift/': require('./components/sidebar/swift/en-EN.js'),
     },
   },
   // /**

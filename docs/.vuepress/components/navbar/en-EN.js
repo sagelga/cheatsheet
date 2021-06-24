@@ -1,10 +1,10 @@
 module.exports = [{
         text: 'Python',
-        link: '/python/'
+        link: '/python/install/'
     },
     {
         text: 'SQL',
-        link: '/sql/'
+        link: '/sql/intro/command/'
     },
     // {
     //     text: 'Swift',
@@ -12,11 +12,11 @@ module.exports = [{
     // },
     {
         text: 'Git',
-        link: '/git/'
+        link: '/git/initiate/'
     },
     {
         text: 'SPSS',
-        link: '/spss/'
+        link: '/spss/data/clean/'
     },
     {
         text: 'Contribute',
