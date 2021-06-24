@@ -11,12 +11,12 @@ module.exports = [{
     //     link: '/swift/'
     // },
     {
-        text: 'SPSS',
-        link: '/spss/'
-    },
-    {
         text: 'Git',
         link: '/git/'
+    },
+    {
+        text: 'SPSS',
+        link: '/spss/'
     },
     {
         text: 'Contribute',
