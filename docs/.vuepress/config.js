@@ -35,7 +35,6 @@ module.exports = {
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
-   *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
@@ -57,13 +56,26 @@ module.exports = {
       // '/swift/': require('./components/sidebar/swift/en-EN.js'),
     },
   },
-  // /**
-  //  * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-  //  */
-  // plugins: [
-  //   '@vuepress/plugin-back-to-top',
-  //   '@vuepress/plugin-medium-zoom',
-  // ]
+  /**
+   * Apply plugins，
+   * ref：https://v2.vuepress.vuejs.org/reference/plugin
+   */
+  plugins: [
+    ['@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: 'Search',
+          },
+        }
+      }
+    ],
+    ['@vuepress/plugin-google-analytics',
+      {
+        id: 'G-5FW65F8J63',
+      },
+    ],
+  ]
 }
 
 // function getSideBar(root, folder) {
