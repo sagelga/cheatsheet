@@ -1,6 +1,7 @@
 module.exports = [
     // Official : https://vuepress.vuejs.org/theme/default-theme-config.html#sidebar
     {
+        isGroup: true,
         text: 'Getting Started',
         children: [
             '/sql/intro/command/',
@@ -10,6 +11,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Querying data',
         children: [
             '/sql/view/select/',
@@ -17,6 +19,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Database Tables',
         children: [
             '/sql/table/create/',
@@ -26,6 +29,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Update Data',
         children: [
             '/sql/data/insert/',
@@ -34,6 +38,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Edit Tables',
         children: [
             '/sql/table/alter/add/',
@@ -42,6 +47,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Grouping',
         children: [
             '/sql/view/group/',
@@ -49,6 +55,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Joining Tables',
         children: [
             '/sql/view/join/inner/',
@@ -62,6 +69,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Transaction control',
         children: [
             '/sql/table/commit/',
@@ -70,6 +78,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Normalization',
         children: [
             '/sql/table/normalize/1NF.html',
@@ -80,17 +89,4 @@ module.exports = [
             '/sql/table/normalize/5NF.html',
         ]
     },
-    // {
-    //     text: 'Sample Database',
-    //     children: [
-    //         'Sample-Database/',
-    //         'Sample-Database/Countries.md',
-    //         'Sample-Database/Departments.md',
-    //         'Sample-Database/Employees.md',
-    //         'Sample-Database/Job_History.md',
-    //         'Sample-Database/Jobs.md',
-    //         'Sample-Database/Locations.md',
-    //         'Sample-Database/Regions.md'
-    //     ]
-    // }
 ]

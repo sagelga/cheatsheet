@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Cheatsheet
-heroImage: logo.png
+heroImage: /images/full.png
 actions:
     - text: Python
       link: /python/install/

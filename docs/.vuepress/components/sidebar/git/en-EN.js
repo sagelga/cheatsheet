@@ -1,6 +1,5 @@
-module.exports = [
-    // Official : https://vuepress.vuejs.org/theme/default-theme-config.html#sidebar
-    {
+module.exports = [{
+        isGroup: true,
         text: 'Getting Started',
         link: '/git/initiate/',
         children: [
@@ -10,6 +9,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Commit',
         link: '/git/commit/',
         children: [{
@@ -29,6 +29,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Branching',
         children: [
             '/git/branch/',
@@ -38,6 +39,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Local / Remote',
         children: [
             '/git/origin/pull/',
@@ -45,6 +47,7 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Merge Strategies',
         link: '/git/merge/',
         children: [

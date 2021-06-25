@@ -1,4 +1,5 @@
 module.exports = [{
+        isGroup: true,
         text: 'Data Preparation',
         children: [
             '/spss/data/clean/',
@@ -6,6 +7,7 @@ module.exports = [{
         ]
     },
     {
+        isGroup: true,
         text: 'Create Model',
         children: [
             '/spss/model/anova/two-way/',
@@ -16,6 +18,7 @@ module.exports = [{
         ]
     },
     {
+        isGroup: true,
         text: 'Tests',
         children: [
             '/spss/test/assumption/'

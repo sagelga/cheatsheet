@@ -1,19 +1,18 @@
 module.exports = [
     // Official : https://vuepress.vuejs.org/theme/default-theme-config.html#sidebar
     {
+        isGroup: true,
         text: 'Getting Started',
-        collapsable: false,
         children: [
             '/python/install/',
             '/python/io/',
             '/python/variable/',
-            '/python/data-type/',
             '/python/lint/'
         ]
     },
     {
+        isGroup: true,
         text: 'Basic Data Type',
-        collapsable: false,
         children: [
             '/python/function/',
             '/python/data-type/',
@@ -31,8 +30,8 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Flow Control',
-        collapsable: false,
         children: [
             '/python/condition/',
             {
@@ -46,39 +45,48 @@ module.exports = [
         ]
     },
     {
+        isGroup: true,
         text: 'Function, Method, and Module',
-        collapsable: false,
         children: [
-            '/python/condition/',
+            '/python/function/',
+            '/python/function/built-in/',
             {
-                text: 'Loop',
-                link: '/python/loop/',
+                text: 'Function, Method, and Module',
+                link: '/python/module/',
                 children: [
-                    '/python/loop/for/',
-                    '/python/loop/while/',
+                    '/python/module/string/',
+                    '/python/module/list/',
+                    '/python/module/math/',
                 ]
             }
         ]
     },
     {
+        isGroup: true,
         text: 'More Data Type',
-        collapsable: false,
         children: [
             '/python/data-type/list/',
             '/python/data-type/tuple/',
             '/python/data-type/dictionary/',
             '/python/io/file/',
             '/python/class/'
-            // '/python/MathLibrary/',
-            // '/python/ErrorHandling/',
-            // '/python/Keyword/',
         ]
     },
     {
+        isGroup: true,
         text: 'Troubleshooting',
-        collapsable: false,
         children: [
-            '/python/error/',
+            '/python/error/debug/',
+            '/python/error/handle/',
+            {
+                text: 'Error Type',
+                link: '/python/error/error-type/',
+                children: [
+                    '/python/error/error-type/compile/',
+                    '/python/error/error-type/runtime/',
+                ]
+            },
+            '/python/error/custom/',
         ]
     }
 ]
