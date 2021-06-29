@@ -1,4 +1,4 @@
-# Built-In Functions
+# ฟังก์ชัน Built-in
 In Python, we have a function that calculate the product built-in to python. <br>
 See it all here : [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
 
@@ -6,7 +6,7 @@ See it all here : [https://docs.python.org/3/library/functions.html](https://doc
 
 และเช่นเดียวกัน เราก็สามารถใช้ฟังก์ชั่นที่ Python ทำไว้แล้วได้เช่นเดียวกัน โดยการเรียกเหมือนกับฟังก์ชั่นธรรมดาเลย
 
-|  |  |  |  |  |
+|               |             |              |            |                |
 | ------------- | ----------- | ------------ | ---------- | -------------- |
 | abs()         | dict()      | help()       | min()      | setattr()      |
 | all()         | dir()       | hex()        | next()     | slice()        |
@@ -19,7 +19,7 @@ See it all here : [https://docs.python.org/3/library/functions.html](https://doc
 | callable()    | format()    | len()        | property() | type()         |
 | chr()         | frozenset() | list()       | range()    | vars()         |
 | classmethod() | getattr()   | locals()     | repr()     | zip()          |
-| compile()     | globals()   | map()        | reversed() | \__import__()   |
+| compile()     | globals()   | map()        | reversed() | \__import__()  |
 | complex()     | hasattr()   | max()        | round()    |                |
 | delattr()     | hash()      | memoryview() | set()      |                |
 

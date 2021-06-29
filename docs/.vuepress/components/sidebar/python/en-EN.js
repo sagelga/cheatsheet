@@ -14,7 +14,6 @@ module.exports = [
         isGroup: true,
         text: 'Basic Data Type',
         children: [
-            '/python/function/',
             '/python/data-type/',
             {
                 text: 'String',
@@ -47,18 +46,28 @@ module.exports = [
     {
         isGroup: true,
         text: 'Function, Method, and Module',
-        children: [
-            '/python/function/',
-            '/python/function/built-in/',
+        children: [{
+                text: 'Function',
+                link: '/python/function/',
+                children: [
+                    '/python/function/built-in/',
+                ]
+            },
             {
-                text: 'Function, Method, and Module',
+                text: 'Method',
+                link: '/python/method/',
+                children: [
+                    '/python/method/string/',
+                    '/python/method/list/',
+                ]
+            },
+            {
+                text: 'Module',
                 link: '/python/module/',
                 children: [
-                    '/python/module/string/',
-                    '/python/module/list/',
                     '/python/module/math/',
-                ]
-            }
+                ],
+            },
         ]
     },
     {
@@ -76,6 +85,8 @@ module.exports = [
         isGroup: true,
         text: 'Troubleshooting',
         children: [
+            '/python/lint/docs/',
+            '/python/lint/docstring/',
             '/python/error/debug/',
             '/python/error/handle/',
             {

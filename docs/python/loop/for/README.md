@@ -61,7 +61,7 @@ for i in text:
 ![](http://etutorials.org/shared/images/tutorials/tutorial_23/09inf08.gif)
 โดย loop ทั่วๆไปก็สามารถทำ loop ซ้อนๆกันได้ เพื่อความเฟี้ยวฟ้าว หรือเพื่อประหยัดเวลาของน้องๆเอง
 
-หลักการก็คือ ตัวโปรแกรมก็จะรัน loop แรก แล้วมันก็ไปเจอ loop อีกอันนึง เลยเข้าไปทำ loop ที่อยู่ข้างในกว่า 
+หลักการก็คือ ตัวโปรแกรมก็จะรัน loop แรก แล้วมันก็ไปเจอ loop อีกอันนึง เลยเข้าไปทำ loop ที่อยู่ข้างในกว่า
 
 This program will run to the total of 2 x 2 x 2 = 8 times.
 ```python
@@ -144,9 +144,9 @@ range is a number array that continues the number as you like
 
 **ตารางเปรียบเทียบ**
 
-| Loop Type / Sample Environment | **For**      |**While**          |
-| ------------------------------ | ------------ | ----------------- |
-| Requires to start              | Amount of loops | Argument that still true |
+| Loop Type / Sample Environment | **For**                    | **While**                                    |
+| ------------------------------ | -------------------------- | -------------------------------------------- |
+| Requires to start              | Amount of loops            | Argument that still true                     |
 | Loop Control                   | Using in, range() or array | Using break or making argument becomes false |
-| Stop when                      | Loop amount is done | When argument is false |
-| Made for                       | Exact number of loops | Argument that can become false     |
+| Stop when                      | Loop amount is done        | When argument is false                       |
+| Made for                       | Exact number of loops      | Argument that can become false               |
