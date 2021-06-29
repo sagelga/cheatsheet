@@ -6,8 +6,6 @@ module.exports = [
         children: [
             '/sql/intro/command/',
             '/sql/table/data-type/',
-            '/sql/table/constraint/',
-            '/sql/table/relationship/',
         ]
     },
     {
@@ -22,6 +20,7 @@ module.exports = [
         isGroup: true,
         text: 'Database Tables',
         children: [
+            '/sql/table/constraint/',
             '/sql/table/create/',
             '/sql/table/describe/',
             '/sql/table/rename/',
@@ -58,6 +57,7 @@ module.exports = [
         isGroup: true,
         text: 'Joining Tables',
         children: [
+            '/sql/table/relationship/',
             '/sql/view/join/inner/',
             '/sql/view/join/inner/CartesianProduct/',
             '/sql/view/join/inner/Cross/',
