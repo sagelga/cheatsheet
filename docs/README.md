@@ -4,7 +4,7 @@ heroText: Cheatsheet
 heroImage: /images/full.png
 actions:
     - text: Python
-      link: /python/install/
+      link: /python/intro/install/
       type: primary
     - text: SQL
       link: /sql/intro/command/

@@ -1,6 +1,6 @@
 module.exports = [{
         text: 'Python',
-        link: '/python/install/'
+        link: '/python/intro/install/'
     },
     {
         text: 'SQL',

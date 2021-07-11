@@ -4,7 +4,8 @@ module.exports = [
         isGroup: true,
         text: 'Getting Started',
         children: [
-            '/python/install/',
+            '/python/intro/install/',
+            '/python/intro/run/',
             '/python/io/',
             '/python/variable/',
             '/python/lint/'
@@ -24,13 +25,21 @@ module.exports = [
                     '/python/data-type/string/array/',
                 ]
             },
-            '/python/data-type/number/',
-            '/python/data-type/boolean/',
+            {
+                text: 'Integer & Float',
+                link: '/python/data-type/number/',
+                children: []
+            },
+            {
+                text: 'Boolean',
+                link: '/python/data-type/boolean/',
+                children: []
+            },
         ]
     },
     {
         isGroup: true,
-        text: 'Flow Control',
+        text: 'Conditions & Iterations',
         children: [
             '/python/condition/',
             {
@@ -77,6 +86,12 @@ module.exports = [
             '/python/data-type/list/',
             '/python/data-type/tuple/',
             '/python/data-type/dictionary/',
+        ]
+    },
+    {
+        isGroup: true,
+        text: 'Others',
+        children: [
             '/python/io/file/',
             '/python/class/'
         ]
