@@ -79,6 +79,9 @@ module.exports = {
         id: 'G-5FW65F8J63',
       },
     ],
+    ['sitemap', {
+      hostname: 'https://learn.sagelga.com'
+    }, ]
   ]
 }
 
