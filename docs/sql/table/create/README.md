@@ -104,10 +104,10 @@ So this is how `Employees` table are designed.
 | Name         | Data Type    | PK                                          | AI  | UQ  | NN  | FK                      | Ref. FK         |
 | ------------ | ------------ | ------------------------------------------- | --- | --- | --- | ----------------------- | --------------- |
 | workplace_id | INT(10)      | :ballot_box_with_check: with `id`           |     |     |     | :ballot_box_with_check: | Expense(salary) |
-| id           | INT(10)      | :ballot_box_with_check: with `workplace_id` |
-| first_name   | VARCHAR(255) |
-| last_name    | VARCHAR(255) |
-| salary       | INT(10)      |
+| id           | INT(10)      | :ballot_box_with_check: with `workplace_id` |     |     |     |                         |                 |
+| first_name   | VARCHAR(255) |                                             |     |     |     |                         |                 |
+| last_name    | VARCHAR(255) |                                             |     |     |     |                         |                 |
+| salary       | INT(10)      |                                             |     |     |     |                         |                 |
 
 ``` sql
 CREATE TABLE Employees (
