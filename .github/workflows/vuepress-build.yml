@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - "**" # matches every branch
-      - "!gh-pages"
+      - "!website" # matches every branch except gh-pages
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -18,5 +18,8 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
 
+      - name: Install yarn dependencies
+        run: yarn
+
       - name: Run yarn build
-        run: yarn && yarn build
+        run: yarn build
