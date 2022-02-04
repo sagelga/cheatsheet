@@ -1,6 +1,5 @@
 ---
 home: true
-heroImage: 'https://avatars1.githubusercontent.com/u/44744915'
 heroText: Welcome to Python Cheatsheet
 
 actionText: Get Started →

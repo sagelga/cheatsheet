@@ -14,7 +14,7 @@
 โดยให้น้องดาวน์โหลดเวอร์ชันล่าสุด โดยเวอร์ชั่นล่าสุดจะปุ่มสีเหลืองตามภาพก็ให้กดเพื่อดาวน์โหลด Python ลงเครื่องของน้องๆครับ
 
 <figure>
-  <img src='pythonDotOrg.png'>
+  <img src='https://www.python.org/static/community_logos/python-logo-master-v3-TM.png'>
   <figcaption>หน้าเว็บไซต์ Python.org</figcaption>
 </figure>
 
