@@ -24,6 +24,13 @@ export default defineUserConfig({
         href: "/images/half.png",
       },
     ],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "YfryvcUpXvpvzX8xdK2JY2yad89if-kCk1Mo7ogs5Is",
+      },
+    ],
   ],
 
   locales: {
