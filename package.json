@@ -4,14 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/sagelga/cheatsheet",
   "author": "Kunanon Srisuntiroj <son9912@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
-    "@vue/component-compiler-utils": "latest",
-    "@vuepress/plugin-google-analytics": "latest",
-    "@vuepress/plugin-search": "latest",
-    "@vuepress/shared-utils": "latest",
-    "vuepress": "latest",
-    "vuepress-plugin-sitemap": "latest"
+    "@vuepress/plugin-docsearch": "next",
+    "@vuepress/plugin-google-analytics": "next",
+    "@vuepress/plugin-search": "next",
+    "vuepress": "next"
   },
   "scripts": {
     "dev": "vuepress dev docs",
