@@ -20,8 +20,8 @@ jobs:
         uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: sagelga/preprogramming
+          TARGET_REPO: sagelga/cheatsheet
           TARGET_BRANCH: website
           BUILD_SCRIPT: yarn build
           BUILD_DIR: docs/.vuepress/dist/
-          CNAME: prepro.sagelga.com
+          CNAME: learn.sagelga.com
