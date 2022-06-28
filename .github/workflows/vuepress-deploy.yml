@@ -17,14 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@main
+
+      - name: Install yarn dependencies
+        run: yarn
 
       - name: vuepress-deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: sagelga/cheatsheet
-          TARGET_BRANCH: gh-pages
-          BUILD_SCRIPT: yarn && yarn build
+          TARGET_REPO: sagelga/preprogramming
+          TARGET_BRANCH: website
+          BUILD_SCRIPT: yarn build
           BUILD_DIR: docs/.vuepress/dist/
           CNAME: learn.sagelga.com
