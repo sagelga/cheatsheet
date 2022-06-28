@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-action.json": "git:/workspaces/cheatsheet/.github/workflows/vuepress-deploy.yml?%7B%22path%22%3A%22%2Fworkspaces%2Fcheatsheet%2F.github%2Fworkflows%2Fvuepress-deploy.yml%22%2C%22ref%22%3A%22HEAD%22%7D"
+  }
+}
