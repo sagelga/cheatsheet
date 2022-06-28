@@ -1,6 +1,10 @@
 # INSERT into
 ## Syntax
-<<< @/code/Insert/insert-usage.sql
+```sql
+INSERT INTO table_name (column_name, column_name, ...)
+    VALUES (value, value, ...), (value, value, ...), ...;
+```
+```
 
 ## Example One
 Category : `full insert`<br>
@@ -20,7 +24,7 @@ Insert these following data to the `Employees` table.
 |-|-|-|-|
 ||'Sam'|'Smith'|200|
 
-In this case, you will not insert `id` attribute by yourself. (because `AI` constraint) So we have to let that to be blank. 
+In this case, you will not insert `id` attribute by yourself. (because `AI` constraint) So we have to let that to be blank.
 
 Now, we have to specify a column to let data to be insert into.
 
@@ -34,7 +38,7 @@ Insert these following data to the `Employees` table.
 ||'Sam'|'Smith'|200|
 ||'Jeff'|'Jeff'||
 
-In this case, some value is not being specified. We must include something to make the script run. 
+In this case, some value is not being specified. We must include something to make the script run.
 
 We can add `Null` to the value, as following
 
