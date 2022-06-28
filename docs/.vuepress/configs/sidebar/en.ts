@@ -132,7 +132,7 @@ export const en: SidebarConfig = {
     },
     {
       text: "Grouping",
-      children: ["/sql/view/group/", "/sql/view/group/function/"],
+      children: ["/sql/view/group/"],
     },
     {
       text: "Joining Tables",
@@ -230,10 +230,6 @@ export const en: SidebarConfig = {
         "/spss/model/logistic-regression/",
         "/spss/model/time-series/",
       ],
-    },
-    {
-      text: "Tests",
-      children: ["/spss/test/assumption/"],
     },
   ],
 };
