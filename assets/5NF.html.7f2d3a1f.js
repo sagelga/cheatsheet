@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a as e,b as r}from"../app.b199fa92.mjs";const n={},c=e("h1",{id:"fifth-normal-form-5-nf",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#fifth-normal-form-5-nf","aria-hidden":"true"},"#"),r(" Fifth Normal Form (5 NF)")],-1),s=[c];function f(_,i){return a(),o("div",null,s)}const h=t(n,[["render",f],["__file","5NF.html.vue"]]);export{h as default};

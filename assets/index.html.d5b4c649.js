@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-cde4a81e","path":"/python/keyword/Nonlocal/","title":"nonlocal","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"python/keyword/Nonlocal/README.md"}');export{e as data};

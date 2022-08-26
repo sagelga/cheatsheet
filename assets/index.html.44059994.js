@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0c86b2a3","path":"/git/merge/squash/","title":"PR Squash and Merge Strategy","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"git/merge/squash/README.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1538b9dc","path":"/git/branch/create/","title":"Create a new branch","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"git/branch/create/README.md"}');export{e as data};

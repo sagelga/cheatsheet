@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,a as e,b as n}from"../app.b199fa92.mjs";const r={},s=e("h1",{id:"push-to-origin",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#push-to-origin","aria-hidden":"true"},"#"),n(" Push to origin")],-1),c=[s];function i(_,d){return o(),a("div",null,c)}const l=t(r,[["render",i],["__file","index.html.vue"]]);export{l as default};

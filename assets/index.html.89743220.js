@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-53072669","path":"/python/keyword/Assert/","title":"assert","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"python/keyword/Assert/README.md"}');export{t as data};

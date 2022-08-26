@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-85559c76","path":"/git/initiate/repository/","title":"Create a Local Repository","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"git/initiate/repository/README.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5ed3e989","path":"/sql/table/normalize/5NF.html","title":"Fifth Normal Form (5 NF)","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"sql/table/normalize/5NF.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4a9d6cfc","path":"/python/lint/docs/","title":"Documentation","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"python/lint/docs/README.md"}');export{t as data};

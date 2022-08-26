@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-71c6738d","path":"/git/merge/","title":"Choosing Merge Strategies","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"git/merge/README.md"}');export{e as data};

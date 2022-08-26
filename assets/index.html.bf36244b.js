@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-79de5608","path":"/python/keyword/Lambda/","title":"lambda","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"python/keyword/Lambda/README.md"}');export{a as data};

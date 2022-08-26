@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6d1f4982","path":"/python/keyword/Yield/","title":"yield","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"python/keyword/Yield/README.md"}');export{e as data};

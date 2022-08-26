@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,b as r}from"../app.b199fa92.mjs";const c={},n=e("h1",{id:"gitflow-workflow",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#gitflow-workflow","aria-hidden":"true"},"#"),r(" GitFlow Workflow")],-1),s=[n];function i(l,_){return t(),a("div",null,s)}const f=o(c,[["render",i],["__file","index.html.vue"]]);export{f as default};

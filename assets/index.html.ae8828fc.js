@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-72136633","path":"/git/branch/diff/","title":"Check difference between branch","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"git/branch/diff/README.md"}');export{e as data};

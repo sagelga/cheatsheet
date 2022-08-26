@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-70b1958e","path":"/git/branch/workflow/","title":"GitFlow Workflow","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"git/branch/workflow/README.md"}');export{t as data};

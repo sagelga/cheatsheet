@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f77ebca8","path":"/python/keyword/Global/","title":"global","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"python/keyword/Global/README.md"}');export{e as data};

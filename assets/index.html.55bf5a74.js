@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,b as o}from"../app.b199fa92.mjs";const n={},r=e("h1",{id:"commit",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#commit","aria-hidden":"true"},"#"),o(" Commit")],-1),s=[r];function i(_,d){return a(),c("div",null,s)}const h=t(n,[["render",i],["__file","index.html.vue"]]);export{h as default};

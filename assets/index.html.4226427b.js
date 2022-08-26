@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as r,a as e,b as s}from"../app.b199fa92.mjs";const c={},n=e("h1",{id:"pr-rebase-strategy",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#pr-rebase-strategy","aria-hidden":"true"},"#"),s(" PR Rebase Strategy")],-1),o=[n];function _(d,i){return a(),r("div",null,o)}const l=t(c,[["render",_],["__file","index.html.vue"]]);export{l as default};

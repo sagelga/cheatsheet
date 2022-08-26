@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-c42aef86","path":"/sql/table/commit/","title":"COMMIT","lang":"en-EN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661498242000,"contributors":[{"name":"Kunanon Srisuntiroj","email":"son9912@gmail.com","commits":1}]},"filePathRelative":"sql/table/commit/README.md"}');export{t as data};
