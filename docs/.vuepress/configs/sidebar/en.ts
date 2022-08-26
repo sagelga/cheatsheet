@@ -3,8 +3,9 @@ import type { SidebarConfig } from "@vuepress/theme-default";
 export const en: SidebarConfig = {
   "/python/": [
     {
-      text: "Getting Started",
+      text: "เริ่มต้นการใช้ Python",
       children: [
+        "/python/intro/check/",
         "/python/intro/install/",
         "/python/intro/run/",
         "/python/io/",
@@ -13,7 +14,7 @@ export const en: SidebarConfig = {
       ],
     },
     {
-      text: "Basic Data Type",
+      text: "ประเภทข้อมูล",
       children: [
         "/python/data-type/",
         {
@@ -35,10 +36,13 @@ export const en: SidebarConfig = {
           link: "/python/data-type/boolean/",
           children: [],
         },
+        "/python/data-type/list/",
+        "/python/data-type/tuple/",
+        "/python/data-type/dictionary/",
       ],
     },
     {
-      text: "Conditions & Iterations",
+      text: "เงื่อนไขและการทำซ้ำ",
       children: [
         "/python/condition/",
         {
@@ -49,7 +53,7 @@ export const en: SidebarConfig = {
       ],
     },
     {
-      text: "Function, Method, and Module",
+      text: "คลาส, ฟังก์ชัน, และเมธอด",
       children: [
         {
           text: "Function",
@@ -61,27 +65,34 @@ export const en: SidebarConfig = {
           link: "/python/method/",
           children: ["/python/method/string/", "/python/method/list/"],
         },
+      ],
+    },
+    {
+      text: "ไลบรารี่, แพ็กเกจ, และโมดูล",
+      children: [
         {
-          text: "Module",
+          text: "โมดูล",
           link: "/python/module/",
-          children: ["/python/module/math/"],
+          children: ["/python/module/", "/python/module/math/"],
+        },
+        {
+          text: "แพ็กเกจ",
+          link: "/python/module/",
+          children: [],
+        },
+        {
+          text: "ไลบรารี่",
+          link: "/python/module/",
+          children: [],
         },
       ],
     },
     {
-      text: "More Data Type",
-      children: [
-        "/python/data-type/list/",
-        "/python/data-type/tuple/",
-        "/python/data-type/dictionary/",
-      ],
-    },
-    {
-      text: "Others",
+      text: "อื่น ๆ",
       children: ["/python/io/file/", "/python/class/"],
     },
     {
-      text: "Troubleshooting",
+      text: "การแก้ไขปัญหาเฉพาะหน้า",
       children: [
         "/python/lint/docs/",
         "/python/lint/docstring/",

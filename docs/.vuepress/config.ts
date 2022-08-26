@@ -21,7 +21,7 @@ export default defineUserConfig({
       "link",
       {
         rel: "icon",
-        href: "/images/half.png",
+        href: "https://img.icons8.com/fluency/48/000000/moleskine.png",
       },
     ],
     [
@@ -42,7 +42,7 @@ export default defineUserConfig({
   },
 
   theme: defaultTheme({
-    logo: "/images/half.png",
+    logo: "https://img.icons8.com/fluency/48/000000/moleskine.png",
     repo: "sagelga/cheatsheet",
     docsRepo: "sagelga/cheatsheet",
     docsBranch: "main",
